@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    padding-right: 20px;
+}
+
+.navbar a{
+    font-size: 13px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    margin-left: 25px;
+}
+
+.navbar-tow{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.navbar-tow-i{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    margin:auto;
+    margin-right: 300px;
+}
+
+.logo img{
+    height: 30px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+.navbar-tow a{
+    text-decoration: none;
+    margin-right: 25px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.navbar-tow a:hover{
+    color: rgb(83, 82, 82);
+}
+
+.navbar-tow i{
+    font-size: 25px;
+}
+
+.navbar-tow-ii{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar-tow-ii a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+.navbar-tow-ii i{
+    margin-left: 10px;
+}
+.navbar-tow-ii input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.navbar-tow-ii a:hover{
+    color: rgb(253, 11, 11);
+}
+
+.container{
+    height: 80vh;
+    background-image: url(./images/1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-session{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-session img{
+    height: 390px
+}
+
+.text-session{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;  
+    margin-bottom: 50px;
+
+}
+
+.text-image img{
+    height: 350px;
+}
+
+.text-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text-content h1{
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text-content p{
+   margin-bottom: 20px;
+}
+
+.text-content button{
+    height: 40px;
+    width: 280px;
+    background: none;
+    border: 1px solid black;
+}
+
+.text-content button:hover{
+    background-color: black;
+    color: white;
+}
+
+.img-session-tow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.img-session-tow img{
+    height: 390px;
+}
+
+.another-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px ;
+}
+.another-img img{
+    height: 407px;
+}
+
+.text-session-tow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;  
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.text-image-two img{
+    height: 380px;
+}
+
+.text-content-two{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-content-two h1{
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text-content-two p{
+   margin-bottom: 20px;
+}
+
+.text-content-two button{
+    height: 40px;
+    width: 240px;
+    background: none;
+    border: 1px solid black;
+}
+.text-content-two button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.img-session-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.img-session-three img{
+    height: 390px;
+}
+
+.text-image-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 15px;
+}
+.text-session-three{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-box-three-img img{
+    height: 380px;
+}
+
+.text-session-three h1{
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.text-session-three p{
+   margin-bottom: 20px;
+}
+
+.text-session-three button{
+    height: 40px;
+    width: 240px;
+    background: none;
+    border: 1px solid black;
+}
+
+.text-session-three button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.Notification-bar{
+    height: 45px;
+    background-color: #808080;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Notification-bar a{
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 18px;
+}
+.Notification-bar h1{
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer{
+    height: 80vh;
+    padding: 15px;
+    background-color: #E5E5E5;
+    margin-top: 150px;
+}
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.links li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.links a i{
+    font-size: 25px;
+}
+.links p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.payment-end a{
+    color: black;
+    text-decoration: none;
+}
+
+.payment-end i{
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.last{
+    text-align:center ;
+    margin-top: 30px;
+}
+
+.last h1{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 960px){
+
+    .navbar{
+        display: none;
+    }
+    .navbar-tow{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    .logo{
+        margin: auto;
+    }
+    .navbar-tow-i{
+        display: none;
+    }
+
+    .navbar-tow-ii{
+        display: none;
+    }
+    .container{
+        height: 200px;
+        margin-top: 50px;
+        
+    }
+
+    .img-session{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-session img{
+        height: 450px;
+        margin-top: 20px;
+    }
+
+    .text-session{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text-content{
+        text-align: center;
+    }
+
+    .text-content button{
+        margin: auto;
+    }
+
+    .text-image img{
+        height: 210px;
+    }
+
+    .img-session-tow{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-session-tow img{
+        height: 450px;
+        margin-top: 20px;
+    }
+
+    .another-img{
+        flex-wrap: wrap;
+    }
+
+    .another-img img{
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .text-session-tow{
+        display: block;
+        flex-direction: column;
+    }
+    .text-content-two{
+        text-align: center;
+    }
+    .text-content-two button{
+        margin: auto;
+    }
+
+    .text-image-two img{
+        height: 200px;
+        
+    }
+
+    .img-session-three{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-session-three img{
+        height: 450px;
+        margin-top: 20px;
+    }
+
+    .text-image-three{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-session-three{
+        text-align: center;
+    }
+    .text-session-three button{
+        margin: auto;
+    }
+
+    .text-box-three-img img{
+        height: 200px;
+
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link-one li{
+        display: none;
+    }
+
+    .link-two li{
+        display: none;
+    }
+
+    .link-three li{
+        display: none;    
+    }
+
+    .link-four p{
+        text-align: center;
+
+    }
+
+    .link-four span{
+        display: flex;
+    }
+
+    .link-four span li{
+        margin: 10px;
+    }
+
+    .last{ 
+        margin-top: 50px;
+    }
+
+
+
+
+
+}
